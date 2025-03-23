@@ -6,9 +6,9 @@ enough for educational purposes.
 
 ## Project structure
 
-- `foo.py` -- implementation of `Foo` class with `hello` and `add` features.
+- `hashDictionary.py` -- implementation of `hashclass` class with `hello` and `add` features.
    Stateless.
-- `foo_test.py` -- unit and PBT tests for `Foo`.
+- `hash_test.py` -- unit and PBT tests for `hashDictionary`.
 
 ## Features
 
@@ -16,7 +16,7 @@ enough for educational purposes.
 
 ## Contribution
 
-- Aleksandr Penskoi (EMAIL) -- all work.
+- He Jian
 
 ## Changelog
 
