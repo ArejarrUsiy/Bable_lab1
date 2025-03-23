@@ -18,7 +18,7 @@ class HashMap:
             if existing_key == key:
                 #  Update existing value without changing insertion order
                 self.buckets[index][i] = (key, value)
-                return        
+                return
         #  Add new key-value pair
         self.buckets[index].append((key, value))
         #  Track insertion order for new keys
@@ -66,7 +66,7 @@ class HashMap:
 
     def to_builtin_list(self):
         # Convert to Python list preserving insertion order.
-        return [(key, self.get(key)) for key in self.keys_order 
+        return [(key, self.get(key)) for key in self.keys_order
                 if self.get(key) is not None]
 
     def filter_by_predicate(self, predicate):
@@ -80,8 +80,8 @@ class HashMap:
 
 
 class MonoidHashMap(HashMap):
-    # Monoid implementation supporting empty identity 
-    # and associative concatenation. 
+    # Monoid implementation supporting empty identity
+    # and associative concatenation.
     @classmethod
     def empty(cls):
         # Identity element for monoid (empty map)
